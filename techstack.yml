@@ -1,0 +1,928 @@
+repo_name: julianmojico/spring-data-examples
+report_id: b3c268c018e70ce468e0620e6d69bd8b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:45:51+00:00'
+requested_by: odrotbohm
+provider: github
+branch: master
+detected_tools_count: 70
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2014-01-31 13:19:08.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/jpa21/src/main/resources/schema.sql
+  detection_source: jpa/jpa21/src/main/resources/schema.sql
+  last_updated_by: Thomas Darimont
+  last_updated_on: 2014-04-24 09:56:29.000000000 Z
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/reactive/pom.xml
+  detection_source: cassandra/reactive/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-10-28 15:46:19.000000000 Z
+- name: QueryDSL
+  description: Unified queries for Java
+  website_url: http://www.querydsl.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/3881/da8da0c0e6dfbfc596f787ade49381a6_400x400.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/mongodb/pom.xml
+  detection_source: mongodb/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-02-26 11:05:20.000000000 Z
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/reactive/pom.xml
+  detection_source: cassandra/reactive/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-10-28 15:46:19.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/pom.xml
+  detection_source: cassandra/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-25 14:40:41.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '18.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/pom.xml
+  detection_source: cassandra/util/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 09:59:14.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-02-12 09:35:06.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/src/main/java/example/springdata/cassandra/util/Cassandra.java
+  detection_source: cassandra/util/src/main/java/example/springdata/cassandra/util/Cassandra.java
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 09:59:14.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/headers/pom.xml
+  detection_source: rest/headers/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-04-11 14:09:36.000000000 Z
+- name: HSQLDB
+  description: Leading SQL relational database software written in Java
+  website_url: http://hsqldb.org
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/pom.xml
+  detection_source: jpa/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2014-01-31 13:19:08.000000000 Z
+- name: Hibernate
+  description: Idiomatic persistence for Java and relational databases.
+  website_url: http://hibernate.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/jpa21/pom.xml
+  detection_source: jpa/jpa21/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-06-04 12:24:46.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/bom/build.gradle
+  detection_source: bom/build.gradle
+  last_updated_by: Andy Wilkinson
+  last_updated_on: 2015-04-16 16:24:07.000000000 Z
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  version: 3.1.0
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/neo4j/example/pom.xml
+  detection_source: neo4j/example/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2017-01-27 13:09:59.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/redis/pom.xml
+  detection_source: redis/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-27 13:07:59.000000000 Z
+- name: Spring Data
+  description: Provides a consistent approach to data access – relational, non-relational,
+    map-reduce, and beyond
+  website_url: https://spring.io/projects/spring-data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/7624/IG6D4Ro2_400x400.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/bom/pom.xml
+  detection_source: bom/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/bom/build.gradle
+  detection_source: bom/build.gradle
+  last_updated_by: Andy Wilkinson
+  last_updated_on: 2015-04-16 16:24:07.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/pom.xml
+  detection_source: cassandra/util/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-25 14:40:41.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/src/main/resources/logback.xml
+  detection_source: cassandra/util/src/main/resources/logback.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 09:59:14.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2014-09-01 10:39:06.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/reactive/src/test/resources/application.properties
+  detection_source: cassandra/reactive/src/test/resources/application.properties
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-10-28 15:46:19.000000000 Z
+- name: Apache Solr
+  description: An open source search platform
+  website_url: http://lucene.apache.org/solr/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/4483/default_2e67ca5c691a5ecab8b19ffaeb371128b4266409.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/solr/pom.xml
+  detection_source: solr/pom.xml
+  last_updated_by: Christoph Strobl
+  last_updated_on: 2016-02-12 10:00:18.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/elasticsearch/pom.xml
+  detection_source: elasticsearch/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-03-18 15:06:04.000000000 Z
+- name: biz.paluch.redis:lettuce
+  description: Advanced and thread-safe Java Redis client for synchronous, asynchronous,
+    and reactive usage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/redis/reactive/pom.xml
+  detection_source: redis/reactive/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-10-28 15:46:19.000000000 Z
+- name: com.datastax.cassandra:cassandra-driver-core
+  description: A driver for Apache Cassandra 1.2+ that works exclusively with the
+    Cassandra Query Language version 3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/pom.xml
+  detection_source: cassandra/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-25 14:40:41.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/example/pom.xml
+  detection_source: cassandra/example/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-25 14:40:41.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/headers/pom.xml
+  detection_source: rest/headers/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-04-11 14:09:36.000000000 Z
+- name: com.fasterxml.jackson.module:jackson-module-parameter-names
+  description: Add-on module for Jackson
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-02-12 09:35:06.000000000 Z
+- name: com.github.kstyrc:embedded-redis
+  description: Redis embedded server for Java integration testing
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/redis/repositories/pom.xml
+  detection_source: redis/repositories/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-03-18 14:42:03.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '18.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/pom.xml
+  detection_source: cassandra/util/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 09:59:14.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Denial of Service in Google Guava
+    cve_id: CVE-2018-10237
+    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 24.1.1-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/headers/pom.xml
+  detection_source: rest/headers/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-04-11 14:09:36.000000000 Z
+- name: com.jayway.jsonpath:json-path
+  description: Java port of Stefan Goessner JsonPath
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-02-12 09:35:06.000000000 Z
+- name: com.unboundid:unboundid-ldapsdk
+  description: A fast
+  license: GPL-3.0-only,LGPL-3.0-only,BSD-2-Clause-FreeBSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/ldap/pom.xml
+  detection_source: ldap/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-27 14:04:15.000000000 Z
+- name: io.javaslang:javaslang
+  description: Javaslang is a Java standard library extension built for Java 8 and
+    above
+  version: 2.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/javaslang/pom.xml
+  detection_source: jpa/javaslang/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-12-14 13:05:38.000000000 Z
+- name: io.projectreactor:reactor-core
+  description: Non-Blocking Reactive Foundation for the JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/reactive/pom.xml
+  detection_source: cassandra/reactive/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-10-28 15:46:19.000000000 Z
+- name: io.reactivex:rxjava
+  description: Rxjava
+  version: 1.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/reactive/pom.xml
+  detection_source: cassandra/reactive/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-10-28 15:46:19.000000000 Z
+- name: io.reactivex:rxjava-reactive-streams
+  description: Adapter between RxJava and ReactiveStreams
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/reactive/pom.xml
+  detection_source: cassandra/reactive/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-11-23 10:01:21.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/pom.xml
+  detection_source: jpa/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2014-01-31 13:19:08.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/pom.xml
+  detection_source: cassandra/util/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 09:59:14.000000000 Z
+- name: org.apache.cassandra:cassandra-all
+  description: The Apache Cassandra Project develops a highly scalable second-generation
+    distributed database
+  version: '3.9'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/pom.xml
+  detection_source: cassandra/util/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 09:59:14.000000000 Z
+  vulnerabilities:
+  - name: Missing Authentication for Critical Function in Apache Cassandra
+    cve_id: CVE-2018-8016
+    cve_url: https://github.com/advisories/GHSA-52gq-7j6c-xw6x
+    detected_date: Jun 30
+    severity: critical
+    first_patched: 3.11.2
+  - name: 'Apache Cassandra: Privilege escalation when enabling FQL/Audit logs'
+    cve_id: CVE-2023-30601
+    cve_url: https://github.com/advisories/GHSA-m9p2-j4hg-g373
+    detected_date: Jul 7
+    severity: high
+    first_patched: 4.0.10
+- name: org.apache.solr:solr-solrj
+  description: Apache Solr Solrj
+  version: 5.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/solr/pom.xml
+  detection_source: solr/pom.xml
+  last_updated_by: Christoph Strobl
+  last_updated_on: 2016-02-12 10:00:18.000000000 Z
+- name: org.cassandraunit:cassandra-unit
+  description: Test framekork to develop with Cassandra
+  version: 3.1.1
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/util/pom.xml
+  detection_source: cassandra/util/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 09:59:14.000000000 Z
+- name: org.eclipse.persistence:org.eclipse.persistence.jpa
+  description: EclipseLink build based upon Git transaction 67768906cf
+  version: 2.6.4
+  license: EPL-2.0,AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/eclipselink/pom.xml
+  detection_source: jpa/eclipselink/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-12-15 19:58:10.000000000 Z
+- name: org.hibernate:hibernate-core
+  description: Hibernate's core ORM functionality
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/pom.xml
+  detection_source: jpa/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2017-01-27 11:29:41.000000000 Z
+- name: org.hibernate:hibernate-entitymanager
+  description: ''
+  license: LGPL-2.0-only,GPL-3.0-or-later
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/jpa21/pom.xml
+  detection_source: jpa/jpa21/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-06-04 12:24:46.000000000 Z
+- name: org.hsqldb:hsqldb
+  description: HSQLDB - Lightweight 100% Java SQL Database Engine
+  license: Zed,TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/pom.xml
+  detection_source: jpa/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-06-04 12:24:46.000000000 Z
+- name: org.mongodb:mongodb-driver-reactivestreams
+  description: The MongoDB Reactive Streams Driver
+  version: 1.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/mongodb/reactive/pom.xml
+  detection_source: mongodb/reactive/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2017-01-04 15:12:10.000000000 Z
+- name: org.neo4j:neo4j
+  description: A meta package containing the most used Neo4j libraries
+  version: 3.1.0
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/neo4j/example/pom.xml
+  detection_source: neo4j/example/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2017-01-27 13:09:59.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Neo4j
+    cve_id: CVE-2021-34371
+    cve_url: https://github.com/advisories/GHSA-pc4w-8v5j-29w9
+    detected_date: Sep 2
+    severity: critical
+    first_patched: 3.5.0
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-03-19 08:02:57.000000000 Z
+- name: org.springframework.batch:spring-batch-core
+  description: Core domain for batch processing
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/redis/cluster/pom.xml
+  detection_source: redis/cluster/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2017-01-30 13:16:57.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-12-22 13:06:31.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/map/pom.xml
+  detection_source: map/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2015-07-16 07:11:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/pom.xml
+  detection_source: cassandra/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-25 14:40:41.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/eclipselink/pom.xml
+  detection_source: jpa/eclipselink/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2015-05-04 13:04:34.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-mongodb
+  description: Starter for using MongoDB document-oriented database and Spring Data
+    MongoDB
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/mongodb/pom.xml
+  detection_source: mongodb/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-redis
+  description: Starter for using Redis key-value data store with Spring Data Redis
+    and the Lettuce client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/redis/pom.xml
+  detection_source: redis/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-27 13:07:59.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/jpa/security/pom.xml
+  detection_source: jpa/security/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2015-03-26 17:38:16.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/pom.xml
+  detection_source: cassandra/pom.xml
+  last_updated_by: Mark Paluch
+  last_updated_on: 2016-07-25 14:40:41.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/web/example/pom.xml
+  detection_source: web/example/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-30 16:09:02.000000000 Z
+- name: org.springframework.data:spring-data-commons
+  description: Global parent pom.xml to be used by Spring Data modules
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/cassandra/reactive/pom.xml
+  detection_source: cassandra/reactive/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-11-23 10:01:21.000000000 Z
+- name: org.springframework.data:spring-data-jpa
+  description: Spring Data module for JPA repositories
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/bom/pom.xml
+  detection_source: bom/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
+- name: org.springframework.data:spring-data-mongodb
+  description: MongoDB support for Spring Data
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/bom/build.gradle
+  detection_source: bom/build.gradle
+  last_updated_by: Andy Wilkinson
+  last_updated_on: 2015-04-16 16:24:07.000000000 Z
+- name: org.springframework.data:spring-data-redis
+  description: Global parent pom.xml to be used by Spring Data modules
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/redis/reactive/pom.xml
+  detection_source: redis/reactive/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-11-23 10:01:21.000000000 Z
+- name: org.webjars:bootstrap
+  description: WebJar for Bootstrap
+  version: 3.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
+- name: org.webjars:jquery
+  description: WebJar for jQuery
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
+- name: org.webjars:webjars-locator
+  description: WebJar Locator
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/julianmojico/spring-data-examples/blob/master/rest/starbucks/pom.xml
+  detection_source: rest/starbucks/pom.xml
+  last_updated_by: Oliver Gierke
+  last_updated_on: 2016-07-11 11:05:13.000000000 Z
